@@ -137,7 +137,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
               <Link to="/dashboard" className="flex-shrink-0 flex items-center hover:opacity-80 transition-all duration-300 hover:scale-105 group">
                 <div className="h-10 w-10 mr-3 relative overflow-hidden rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300">
                   <img 
-                    src="/lovable-uploads/8764410a-7e4d-4c75-a436-d3c5f750d5a2.png" 
+                    src="/uploads/entnt.png" 
                     alt="ENTNT Logo" 
                     className="h-full w-full object-cover"
                   />
