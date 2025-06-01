@@ -62,7 +62,7 @@ const LoginForm = () => {
             {/* Logo */}
             <div className="flex items-center mb-8">
               <img 
-                src="/lovable-uploads/8764410a-7e4d-4c75-a436-d3c5f750d5a2.png" 
+                src="/uploads/entnt.png" 
                 alt="ENTNT Logo" 
                 className="h-12 w-auto mr-4"
               />
