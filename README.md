@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
 
-## Project info
+# RentEase Manager
 
-**URL**: https://lovable.dev/projects/aed4b6da-6af9-4c8a-8eb7-02d1c3002d44
+A modern and intuitive property rental management system built with React, TypeScript, Tailwind CSS, and Vite.
 
-## How can I edit this code?
+## 🌐 Live Demo
 
-There are several ways of editing your application.
+Deployed at: [https://rent-ease-manager.vercel.app](https://rent-ease-manager.vercel.app)
 
-**Use Lovable**
+## 📦 Repository
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aed4b6da-6af9-4c8a-8eb7-02d1c3002d44) and start prompting.
+GitHub: [https://github.com/IsseiDxD0812/rent-ease-manager](https://github.com/IsseiDxD0812/rent-ease-manager)
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Setup Instructions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1. Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Ensure you have the following installed:
 
-Follow these steps:
+- **Node.js** (preferably via [nvm](https://github.com/nvm-sh/nvm))
+- **npm** (comes with Node.js)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Clone the Repository
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+git clone https://github.com/IsseiDxD0812/rent-ease-manager.git
+cd rent-ease-manager
+````
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3. Install Dependencies
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+### 4. Start Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+This starts the Vite development server with hot module reloading. Open [http://localhost:8000](http://localhost:8000) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🏗️ Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* **Vite** – lightning-fast build tool
+* **React** – component-based UI library
+* **TypeScript** – static typing for JavaScript
+* **Tailwind CSS** – utility-first CSS framework
+* **shadcn/ui** – accessible and customizable UI components
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📁 Project Structure Overview
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+rent-ease-manager/
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level components/routes
+│   ├── hooks/           # Custom React hooks
+│   ├── utils/           # Utility functions and helpers
+│   ├── styles/          # Tailwind and global styles
+│   └── main.tsx         # App entry point
+├── index.html
+├── package.json
+└── vite.config.ts
+```
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/aed4b6da-6af9-4c8a-8eb7-02d1c3002d44) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
+## 🧠 Technical Decisions
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+* **Vite** was chosen for its fast startup and HMR performance.
+* **shadcn/ui** was integrated for rapid UI development with accessibility in mind.
+* **TypeScript** helps catch bugs early and makes the codebase more maintainable.
+* **Tailwind CSS** provides utility classes for consistent styling without custom CSS bloat.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+
+
