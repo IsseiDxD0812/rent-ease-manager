@@ -1,7 +1,7 @@
 
 # RentEase Manager
 
-A modern and intuitive property rental management system built with React, TypeScript, Tailwind CSS, and Vite.
+A modern and intuitive equipment rental management system built with React, TypeScript, Tailwind CSS, and Vite.
 
 ## 🌐 Live Demo
 
@@ -86,33 +86,33 @@ rent-ease-manager/
 
 ## ❗ Known Issues
 
-* **🔐 Hardcoded Authentication**
+ **🔐 Hardcoded Authentication**
 
-Issue: Login credentials are hardcoded in the frontend code
-Impact: High – Security vulnerability; passwords are exposed in client-side code
-
-
-* **🧾 No Real Authentication/Authorization**
-
-Issue: Role-based access is enforced only via frontend checks
-Impact: High – Can be bypassed by manipulating localStorage
+* Issue: Login credentials are hardcoded in the frontend code
+* Impact: High – Security vulnerability; passwords are exposed in client-side code
 
 
-* **🔄 No Real-time Features**
+ **🧾 No Real Authentication/Authorization**
 
-Issue: Notifications and data updates are not real-time
-Impact: Reduces responsiveness and user collaboration
+* Issue: Role-based access is enforced only via frontend checks
+* Impact: High – Can be bypassed by manipulating localStorage
+
+
+ **🔄 No Real-time Features**
+
+* Issue: Notifications and data updates are not real-time
+* Impact: Reduces responsiveness and user collaboration
 
 * **🧭 Feedback System Navigation Missing**
 
-Issue: The feedback page exists but there’s no link to it in MainLayout
-Impact: Poor discoverability of the feedback functionality
+* Issue: The feedback page exists but there’s no link to it in MainLayout
+* Impact: Poor discoverability of the feedback functionality
 
 * **🗄️ No Backend/Database Integration**
 
-Issue: All data is stored in localStorage, which leads to:
-Data loss when browser storage is cleared
-No synchronization between different users or sessions
-No cross-device data persistence
-Limited scalability due to local storage size limits
+* Issue: All data is stored in localStorage, which leads to:
+    * Data loss when browser storage is cleared
+    * No synchronization between different users or sessions
+    * No cross-device data persistence
+    * Limited scalability due to local storage size limits
 
